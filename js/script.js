@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 function sendEmail() {
   emailjs.init({
-  publicKey: '7XrwXhjTWbjENBLAr',
+  publicKey: '6U5DrpYEGPivIoa7i',
 });
 const name = document.getElementById("name").value.trim();
 const email = document.getElementById("email").value.trim();
@@ -177,7 +177,7 @@ const params = {
   message:message,
 
 };
-emailjs.send("service_1bxb5li","template_wr8ni1k", params)
+emailjs.send("service_c1zzsma","template_qwb83nn", params)
 .then(function() {
   alert("Email sent!");
 })
